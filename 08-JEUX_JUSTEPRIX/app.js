@@ -36,7 +36,7 @@ var toTry = function(){
 	} // Si le joueur continue à jouer
 	else {
 		nbTry++;
-		alert(message);
+		confirm(message);
 		toTry();
 	}
 
