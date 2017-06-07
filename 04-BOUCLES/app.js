@@ -33,20 +33,15 @@ for (var i = 0; i <= 100; i++){
 	var grade;
 	if (i > 90){
 		grade = "A";
-	}
-	else if (i > 90){
+	} else if (i > 90){
 		grade = "A";
-	}
-	else if (i > 80){
+	} else if (i > 80){
 		grade = "B";
-	}
-	else if (i > 70){
+	} else if (i > 70){
 		grade = "C";
-	}
-	else if (i > 65){
+	} else if (i > 65){
 		grade = "D";
-	}
-	else {
+	} else {
 		grade = "F";
 	}
 	console.log("Pour " + i + " points vous avez le grade de " + grade);
