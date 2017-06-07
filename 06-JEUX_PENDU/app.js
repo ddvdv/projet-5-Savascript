@@ -6,7 +6,7 @@ var tried = []; // Lettres proposées
 var left = 10; // Nombre de tentatives restantes
 
 var guessLetter = function(){
-	// Demander au joueur de rentrer une lettre
+    // Demander au joueur de rentrer une lettre
 	var letter = prompt("Your guess so far: " + guessed + "\nYou have " + left + " chances left. Please enter a letter");
 	letter = letter.toUpperCase();
 	var blank = false;
