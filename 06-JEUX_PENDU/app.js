@@ -52,8 +52,10 @@ var guessLetter = function(){
 	 		alert("You won!");
 	 	}
 	} else {// Si lettre déjà proposée
-	 	confirm("You have tried this letter already!");
-		guessLetter();
+	 	var keepGoing = confirm("You have tried this letter already!");
+		if (keepGoing){
+			guessLetter();
+		}
 	}
 
 }
